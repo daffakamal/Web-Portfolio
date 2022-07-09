@@ -294,7 +294,7 @@ section{
 }
 
 .home_social-icon{
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     color: var(--first-color);
 }
 
@@ -358,7 +358,7 @@ section{
     display: inline-block;
     background-color: var(--first-color);
     color: #FFF;
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: .5rem;
     font-weight:var(--font-medium);
 }
@@ -383,8 +383,9 @@ section{
     justify-content: center;
     align-items: center;
 }
+
 .about_img{
-    width: 175px;
+    width: 250px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -392,15 +393,9 @@ section{
 
 .about_description{
     display: flex;
-    text-align: center;
+    text-align: left;
     margin-bottom: var(--mb-2-5);
     line-height: 2;
-}
-
-.about_info{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: var(--mb-2-5);
 }
 
 /*==================== MY JOURNEY ====================*/
@@ -616,6 +611,10 @@ section{
     .home_blob{
         width: 180px;
     }
+
+    .about_img{
+        width: 160px;
+    }
     
     .footer_container{
         row-gap: 0;
@@ -641,6 +640,10 @@ section{
 }
 
 @media screen and (min-width: 350px){
+    .about_img{
+        width: 190px;
+    }
+
     .home_scroll-button{
         margin-top: 3rem;
     }
@@ -819,7 +822,11 @@ section{
     }
 
     .about_description{
-        text-align: center;
+        text-align: left;
+    }
+
+    .about_img{
+        width: 203px;
     }
 
     .about_info{
@@ -889,4 +896,8 @@ section{
     .home_social{
         transform: translateX(-6rem);
     }  
+
+    .about_img{
+        width: 250px;
+    }
 }
