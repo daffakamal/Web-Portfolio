@@ -1,3 +1,3 @@
 # Web-Portfolio
 
-I make this personal website by watching one of the video tutorials on the Bedimcode's Youtube Channel (with some changes from me).
+This is my first personal website built with HTML, CSS, and JavaScript. I make this personal website by watching one of the video tutorials on Youtube (with some changes from me).
